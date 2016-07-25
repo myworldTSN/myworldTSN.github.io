@@ -121,7 +121,7 @@
 }
 
 .cn-content{
-	background: #80B8CE url(../images/13.jpg) no-repeat center center;
+	background: #80B8CE url(../images/15.jpg) no-repeat center center;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; 
 	text-align: left;
 	padding: 20px 20px 5px;
@@ -215,67 +215,67 @@
 }
 /* Main Items */
 .cn-slide nav a[href="#slide-1"]{
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/1.jpg);
 }
 .cn-slide nav a[href="#slide-2"]{
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/12.jpg);
 }
 .cn-slide nav a[href="#slide-3"]{
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/13.jpg);
 }
 
 /* Items and sub-items of slide 1*/
 .cn-slide nav a[href="#slide-1-1"],
 #slide-1-1 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/13.jpg);
 }
 .cn-slide nav a[href="#slide-1-2"],
 #slide-1-2 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/13.jpg);
 }
 .cn-slide nav a[href="#slide-1-3"],
 #slide-1-3 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/13.jpg);
 }
 .cn-slide nav a[href="#slide-1-4"],
 #slide-1-4 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/13.jpg);
 }
 
 /* Items and sub-items of slide 2*/
 .cn-slide nav a[href="#slide-2-1"],
 #slide-2-1 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/7.jpg);
 }
 .cn-slide nav a[href="#slide-2-2"],
 #slide-2-2 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/7.jpg);
 }
 .cn-slide nav a[href="#slide-2-3"],
 #slide-2-3 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/7.jpg);
 }
 .cn-slide nav a[href="#slide-2-4"],
 #slide-2-4 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/7.jpg);
 }
 
 /* Items and sub-items of slide 3*/
 .cn-slide nav a[href="#slide-3-1"],
 #slide-3-1 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/12.jpg);
 }
 .cn-slide nav a[href="#slide-3-2"],
 #slide-3-2 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/12.jpg);
 }
 .cn-slide nav a[href="#slide-3-3"],
 #slide-3-3 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/12.jpg);
 }
 .cn-slide nav a[href="#slide-3-4"],
 #slide-3-4 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/12.jpg);
 }
 @media screen and (max-width: 1060px){
 	.cn-slide-sub nav a{
