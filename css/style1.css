@@ -8,7 +8,7 @@
 }
 .cn-container h2{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	color: #626258;
+	color: #000000;
 	position: absolute;
 	z-index: 1000;
 	text-shadow: 0 0 1px rgba(255,255,255,0.8), 1px 1px 1px rgba(0,0,0,0.2);
