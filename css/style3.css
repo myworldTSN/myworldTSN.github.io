@@ -8,7 +8,7 @@
 }
 .cn-container h2{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	color: #000000;
+	color: #626258;
 	position: absolute;
 	z-index: 10000;
 	text-shadow: 0 0 1px rgba(255,255,255,0.8), 1px 1px 1px rgba(0,0,0,0.2);
@@ -121,7 +121,7 @@
 }
 
 .cn-content{
-	background: #80B8CE url(../images/1.jpg) no-repeat center center;
+	background: #80B8CE url(../images/bg3.jpg) no-repeat center center;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; 
 	text-align: left;
 	padding: 20px 20px 5px;
