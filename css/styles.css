@@ -43,3 +43,30 @@ nav {
 .menu li a:hover {
     color: #222;
 }
+
+/* Dropdown styles */
+.menu ul {
+    position: absolute;
+    left: -9999px;
+    list-style: none;
+}
+.menu ul li {
+    float: none;
+}
+.menu ul a {
+    white-space: nowrap;
+}
+/* Displays the dropdown on hover and moves back into position */
+.menu li:hover ul {
+    left: 5px;
+}
+/* Persistent Hover State */
+.menu li:hover a {
+    color: #222;
+}
+.menu li:hover ul a {
+    background: none;
+}
+.menu li:hover ul li a:hover {
+
+}
