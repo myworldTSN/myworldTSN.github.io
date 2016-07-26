@@ -32,23 +32,23 @@
 		top: 0;
 		-webkit-animation-timing-function: ease-in;
 	}
-	1% {
+	10% {
 		top: 10%;
 		-webkit-animation-timing-function: ease-out;
 	}
-	5% {
+	20% {
 		top: 20%;
 		-webkit-animation-timing-function: ease-in;
 	}
-	7% {
+	30% {
 		top: 30%;
 		-webkit-animation-timing-function: ease-out;
 	}
-	10% {
+	40% {
 		top: 40%;
 		-webkit-animation-timing-function: ease-in;
 	}
-	15% {
+	50% {
 		top: 50%;
 		-webkit-animation-timing-function: ease-out;
 	}
