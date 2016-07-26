@@ -70,22 +70,7 @@ body {
 
 
 
-.stage {
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  margin: 20px;
-  -webkit-perspective: 1200px;
-  -moz-perspective: 1200px;
-  -ms-perspective: 1200px;
-  -o-perspective: 1200px;
-  perspective: 1200px;
-  -webkit-perspective-origin: 50% 50%;
-  -moz-perspective-origin: 50% 50%;
-  -ms-perspective-origin: 50% 50%;
-  -o-perspective-origin: 50% 50%;
-  perspective-origin: 50% 50%;
-}
+
 
 .ball {
 
@@ -291,7 +276,7 @@ body {
 	animation: shadow 2s 1 forwards;
 }
 
-@-webkit-keyframes shadow {
+@-webkit-keyframes .ball .shadow {
 	0% {
 		width: 10px;
 		-webkit-border-radius:10px/5px;
@@ -494,6 +479,24 @@ body {
 		animation-timing-function: ease-out;
 	}
 }
+
+.stage {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -ms-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}
+
 
 body {
   width: 300px;
