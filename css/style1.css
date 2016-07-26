@@ -137,31 +137,31 @@
 		top: 50%;
 		animation-timing-function: ease-in;
 	}
-	16% {
+	10% {
 		top: 190px;
 		animation-timing-function: ease-out;
 	}
-	32% {
+	15% {
 		top: 50px;
 		animation-timing-function: ease-in;
 	}
-	48% {
+	20% {
 		top: 190px;
 		animation-timing-function: ease-out;
 	}
-	62% {
+	25% {
 		top: 100px;
 		animation-timing-function: ease-in;
 	}
-	78% {
+	30% {
 		top: 190px;
 		animation-timing-function: ease-out;
 	}
-	90% {
+	35% {
 		top: 150px;
 		animation-timing-function: ease-in;
 	}
-	100% {
+	40% {
 		top: 50%;
 		animation-timing-function: ease-out;
 	}
