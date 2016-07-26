@@ -105,9 +105,9 @@ body {
 	background-image: -o-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
 	background-image: radial-gradient(10% 24%, circle, #67caff, #004469 70%);
 
-	-webkit-border-radius: 55px;
-	-moz-border-radius: 55px;
-	border-radius: 55px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 	
 	-webkit-animation: bounce 2s 1 forwards;
 	-moz-animation: bounce 2s 1 forwards;
