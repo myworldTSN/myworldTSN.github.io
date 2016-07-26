@@ -90,8 +90,8 @@ body {
 .ball {
 
 	display: inline-block;
-	width: 500px;
-	height: 500px;
+	width: 200px;
+	height: 200px;
 	position: relative;
 	top: 0px;
 	margin: 0;
