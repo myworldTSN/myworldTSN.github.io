@@ -76,7 +76,7 @@
 
 <style type="text/css">
 
-  @-webkit-keyframes spinner {
+  @-webkit-keyframes spinner5 {
     from,15% { -webkit-transform: rotateY(0deg);    }
     20%,35%  { -webkit-transform: rotateY(-72deg);  }
     40%,55%  { -webkit-transform: rotateY(-144deg); }
@@ -85,7 +85,7 @@
     to       { -webkit-transform: rotateY(-360deg); }
   }
 
-  @keyframes spinner {
+  @keyframes spinner5 {
     from,15% {
       -moz-transform: rotateY(0);
       -ms-transform: rotateY(0);
@@ -121,23 +121,3 @@
 </style>
 
 
-<style type="text/css">
-
-  #spinner {
-    -webkit-animation-name: spinner5;
-    -webkit-animation-timing-function: ease-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 20s;
-
-    animation-name: spinner5;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-
-</style>
