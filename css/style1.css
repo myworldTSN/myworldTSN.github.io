@@ -479,3 +479,9 @@ body {
 		animation-timing-function: ease-out;
 	}
 }
+
+body {
+  width: 300px;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+}
