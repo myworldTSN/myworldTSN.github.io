@@ -276,9 +276,9 @@ body {
 	animation: shadow 2s 1 forwards;
 }
 
-@-webkit-keyframes ball shadow {
+@-webkit-keyframes shadow {
 	0% {
-		width: 10px;
+		width: 100px;
 		-webkit-border-radius:10px/5px;
 		margin-left: -5px;
 		-webkit-animation-timing-function: ease-in; 
