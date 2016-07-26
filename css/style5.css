@@ -50,6 +50,11 @@
     animation-play-state: paused;
   }
 
-
+#spinner img {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.8);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+  }
 
 </style>
