@@ -99,11 +99,11 @@ body {
 	background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
 
 	background-color: #7DB8E8;
-	background-image: -webkit-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
-	background-image: -moz-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
-	background-image: -ms-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
-	background-image: -o-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
-	background-image: radial-gradient(10% 24%, circle, #67caff, #004469 70%);
+	background-image: -webkit-radial-gradient(50% 120%, circle, #67caff, #004469 70%);
+	background-image: -moz-radial-gradient(50% 120%, circle, #67caff, #004469 70%);
+	background-image: -ms-radial-gradient(50% 120%, circle, #67caff, #004469 70%);
+	background-image: -o-radial-gradient(50% 120%, circle, #67caff, #004469 70%);
+	background-image: radial-gradient(50% 120%, circle, #67caff, #004469 70%);
 
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
