@@ -276,7 +276,7 @@ body {
 	animation: shadow 2s 1 forwards;
 }
 
-@-webkit-keyframes .ball .shadow {
+@-webkit-keyframes ball shadow {
 	0% {
 		width: 10px;
 		-webkit-border-radius:10px/5px;
