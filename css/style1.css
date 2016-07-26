@@ -32,31 +32,31 @@
 		top: 50%;
 		-webkit-animation-timing-function: ease-in;
 	}
+	1% {
+		top: 190px;
+		-webkit-animation-timing-function: ease-out;
+	}
+	2% {
+		top: 50px;
+		-webkit-animation-timing-function: ease-in;
+	}
+	3% {
+		top: 190px;
+		-webkit-animation-timing-function: ease-out;
+	}
+	4% {
+		top: 100px;
+		-webkit-animation-timing-function: ease-in;
+	}
 	5% {
 		top: 190px;
 		-webkit-animation-timing-function: ease-out;
 	}
-	10% {
-		top: 50px;
-		-webkit-animation-timing-function: ease-in;
-	}
-	12% {
-		top: 190px;
-		-webkit-animation-timing-function: ease-out;
-	}
-	15% {
-		top: 100px;
-		-webkit-animation-timing-function: ease-in;
-	}
-	20% {
-		top: 190px;
-		-webkit-animation-timing-function: ease-out;
-	}
-	25% {
+	6% {
 		top: 150px;
 		-webkit-animation-timing-function: ease-in;
 	}
-	30% {
+	7% {
 		top: 50%;
 		-webkit-animation-timing-function: ease-out;
 	}
