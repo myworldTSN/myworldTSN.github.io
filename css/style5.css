@@ -29,12 +29,12 @@
   }
   
 #spinner {
-    -webkit-animation-name: spinner5;
+    -webkit-animation-name: spinner;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 6s;
 
-    animation-name: spinner5;
+    animation-name: spinner;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 6s;
