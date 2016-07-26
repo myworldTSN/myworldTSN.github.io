@@ -52,14 +52,7 @@
 		top: 5%;
 		-webkit-animation-timing-function: ease-out;
 	}
-	6% {
-		top: 6%;
-		-webkit-animation-timing-function: ease-in;
-	}
-	10% {
-		top: 7%;
-		-webkit-animation-timing-function: ease-out;
-	}
+
 }
 
 @-moz-keyframes bounce {
@@ -87,14 +80,7 @@
 		top: 5%;
 		-moz-animation-timing-function: ease-out;
 	}
-	6% {
-		top: 6%;
-		-moz-animation-timing-function: ease-in;
-	}
-	10% {
-		top: 7%;
-		-moz-animation-timing-function: ease-out;
-	}
+
 }
 
 @-ms-keyframes bounce {
@@ -122,14 +108,7 @@
 		top: 5%;
 		-ms-animation-timing-function: ease-out;
 	}
-	6% {
-		top: 6%;
-		-ms-animation-timing-function: ease-in;
-	}
-	10% {
-		top: 7%;
-		-ms-animation-timing-function: ease-out;
-	}
+
 }
 
 @keyframes bounce {
@@ -157,14 +136,7 @@
 		top: 5%;
 		animation-timing-function: ease-out;
 	}
-	6% {
-		top: 6%;
-		animation-timing-function: ease-in;
-	}
-	10% {
-		top: 7%;
-		animation-timing-function: ease-out;
-	}
+
 }
 
 
