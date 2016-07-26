@@ -156,5 +156,5 @@ a{
 }
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover{
-	background: rgba(103,59,77,0.4);
+	background: rgba(0, 0, 0, 0.1);  <!--rgba(103,59,77,0.4)-->
 }
