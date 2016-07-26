@@ -56,7 +56,13 @@
 	-webkit-transform-origin:60px 60px 0;
 	-moz-transform-origin:60px 60px 0;
 	-ms-transform-origin:60px 60px 0;
-	transform-origin:60px 60px 0}
+	transform-origin:60px 60px 0
+	}
+#one { 
+   position: relative; 
+   top: 20px; 
+   left: 20px; 
+}
 	
 .cubespinner div{
 	position:absolute;
