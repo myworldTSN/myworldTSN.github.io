@@ -139,12 +139,12 @@ a{
     display: inline-block;
 	margin: 0px 4px;
 	padding: 0px 4px;
-	color: #626258;
+	color: #333;  <!-- 626258 -->
 	line-height: 20px;	
 	font-style: italic;
 	font-size: 13px;
 	border-radius: 3px;
-	background: rgba(103,59,77,0.1);
+	background: rgba(0, 0, 0, 0.1);  <!--rgba(103,59,77,0.1) -->
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
