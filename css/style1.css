@@ -80,6 +80,8 @@ body {
 	position: relative;
 	top: 0px;
 	margin: 0;
+	margin-top: 50%;
+	margin-left: 50%;
 	border-radius: 50%;
 	background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
 
