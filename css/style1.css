@@ -53,17 +53,18 @@ z-index: -1;
 body {
   width: 300px;
   margin: 20px auto;
-  /*background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, rgba(255, 255, 255, 0.5) 40%, #ffffff 100%);*/
+  /*background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, rgba(255, 255, 255, 0.5) 40%, #ffffff 100%);
   background-repeat: no-repeat;
 }
-*/
-/*
+
+
 body {
   width: 300px;
   margin: 20px auto;
   background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, rgba(255, 255, 255, 0.5) 40%, #ffffff 100%);
   background-repeat: no-repeat;
 }
+
 */
 
 
@@ -75,15 +76,18 @@ body {
 	height: 300px;
 }
 
-.ball { 
+.ball {
+
+	display: inline-block;
 	z-index: 3;
 	width: 100px;
 	height: 100px;
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 50%;
-	margin-left: -50px;
-	
+	margin: 0;
+	border-radius: 50%;
+	background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+
 	background-color: #7DB8E8;
 	background-image: -webkit-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
 	background-image: -moz-radial-gradient(10% 24%, circle, #67caff, #004469 70%);
