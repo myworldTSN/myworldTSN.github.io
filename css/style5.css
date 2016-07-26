@@ -124,12 +124,12 @@
 <style type="text/css">
 
   #spinner {
-    -webkit-animation-name: spinner;
+    -webkit-animation-name: spinner5;
     -webkit-animation-timing-function: ease-out;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 20s;
 
-    animation-name: spinner;
+    animation-name: spinner5;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-duration: 20s;
