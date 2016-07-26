@@ -67,31 +67,31 @@
 		top: 50%;
 		-moz-animation-timing-function: ease-in;
 	}
-	10% {
+	1% {
 		top: 190px;
 		-moz-animation-timing-function: ease-out;
 	}
-	15% {
+	2% {
 		top: 50px;
 		-moz-animation-timing-function: ease-in;
 	}
-	20% {
+	3% {
 		top: 190px;
 		-moz-animation-timing-function: ease-out;
 	}
-	25% {
+	4% {
 		top: 100px;
 		-moz-animation-timing-function: ease-in;
 	}
-	30% {
+	5% {
 		top: 190px;
 		-moz-animation-timing-function: ease-out;
 	}
-	35% {
+	6% {
 		top: 150px;
 		-moz-animation-timing-function: ease-in;
 	}
-	40% {
+	7% {
 		top: 50%;
 		-moz-animation-timing-function: ease-out;
 	}
@@ -102,31 +102,31 @@
 		top: 50%;
 		-ms-animation-timing-function: ease-in;
 	}
-	10% {
+	1% {
 		top: 190px;
 		-ms-animation-timing-function: ease-out;
 	}
-	15% {
+	2% {
 		top: 50px;
 		-ms-animation-timing-function: ease-in;
 	}
-	20% {
+	3% {
 		top: 190px;
 		-ms-animation-timing-function: ease-out;
 	}
-	25% {
+	4% {
 		top: 100px;
 		-ms-animation-timing-function: ease-in;
 	}
-	30% {
+	5% {
 		top: 190px;
 		-ms-animation-timing-function: ease-out;
 	}
-	35% {
+	6% {
 		top: 150px;
 		-ms-animation-timing-function: ease-in;
 	}
-	40% {
+	7% {
 		top: 50%;
 		-ms-animation-timing-function: ease-out;
 	}
@@ -137,31 +137,31 @@
 		top: 50%;
 		animation-timing-function: ease-in;
 	}
-	10% {
+	1% {
 		top: 190px;
 		animation-timing-function: ease-out;
 	}
-	15% {
+	2% {
 		top: 50px;
 		animation-timing-function: ease-in;
 	}
-	20% {
+	3% {
 		top: 190px;
 		animation-timing-function: ease-out;
 	}
-	25% {
+	4% {
 		top: 100px;
 		animation-timing-function: ease-in;
 	}
-	30% {
+	5% {
 		top: 190px;
 		animation-timing-function: ease-out;
 	}
-	35% {
+	6% {
 		top: 150px;
 		animation-timing-function: ease-in;
 	}
-	40% {
+	7% {
 		top: 50%;
 		animation-timing-function: ease-out;
 	}
