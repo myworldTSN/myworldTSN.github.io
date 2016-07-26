@@ -59,7 +59,7 @@
 	transform-origin:60px 60px 0}
 	
 .cubespinner div{
-	position:absolute;
+	position:relative;
 	width:120px;
 	height:120px;
 	border:1px solid #ccc;
