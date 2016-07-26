@@ -80,16 +80,26 @@ a{
     text-align: center;
 }
 .container > header h1{
-	color: #d54d7b; 
-	font-family: "Great Vibes", cursive; 
-	font-size: 22px; 
-	line-height: 160px; 
-	font-weight: normal; 
-	margin-bottom: 0px; 
-	margin-top: 40px; 
-	text-align: center; 
-	text-shadow: 0 1px 1px #fff; 
+#clipped-title2 {
+	background: url(../images/jungle.jpg)no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	cursor: pointer;
 }
+#clipped-title2 h1 {
+	font-size: 110px;
+	font-family: Pacifico, sans-serif;
+	text-align: center;
+	-webkit-transition: text-shadow 1s ease;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	margin-top: -75px;
+	padding: 0;
+}
+
+}
+
 .container > header h1 span{
 	color: #582036;
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
