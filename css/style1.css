@@ -57,7 +57,7 @@
 		-webkit-animation-timing-function: ease-in;
 	}
 	100% {
-		top: 190px;
+		top: 150px;
 		-webkit-animation-timing-function: ease-out;
 	}
 }
@@ -92,7 +92,7 @@
 		-moz-animation-timing-function: ease-in;
 	}
 	100% {
-		top: 190px;
+		top: 150px;
 		-moz-animation-timing-function: ease-out;
 	}
 }
@@ -127,7 +127,7 @@
 		-ms-animation-timing-function: ease-in;
 	}
 	100% {
-		top: 190px;
+		top: 150px;
 		-ms-animation-timing-function: ease-out;
 	}
 }
@@ -162,7 +162,7 @@
 		animation-timing-function: ease-in;
 	}
 	100% {
-		top: 190px;
+		top: 150px;
 		animation-timing-function: ease-out;
 	}
 }
