@@ -134,6 +134,7 @@ a{
 	line-height: 30px;
 	padding: 5px 0px 15px 0px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	border: 8px solid #fff;
 }
 .codrops-demos a{
     display: inline-block;
@@ -144,7 +145,7 @@ a{
 	font-style: italic;
 	font-size: 13px;
 	border-radius: 3px;
-	border: 8px solid #fff;
+	
 	background: rgba(0, 0, 0, 0.1);  <!--rgba(103,59,77,0.1) -->
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
