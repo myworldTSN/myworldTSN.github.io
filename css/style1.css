@@ -75,12 +75,12 @@ body {
 .ball {
 
 	display: inline-block;
-	width: 100%;
-	height: 100%;
+	width: 200px;
+	height: 200px;
 	position: relative;
-	margin-top: 50%;
-	margin-left: 50%;
-	border-radius: 50%;
+	margin-top: 100px;
+	margin-left: 100px;
+	border-radius: 100px;
 	background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
 
 	background-image: -webkit-radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
