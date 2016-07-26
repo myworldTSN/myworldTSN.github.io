@@ -263,7 +263,7 @@ body {
 
 @-webkit-keyframes bounce {
 	0% {
-		top: 0;
+		top: 100%;
 		-webkit-animation-timing-function: ease-in;
 	}
 	16% {
@@ -298,7 +298,7 @@ body {
 
 @-moz-keyframes bounce {
 	0% {
-		top: 0;
+		top: 100%;
 		-moz-animation-timing-function: ease-in;
 	}
 	16% {
@@ -333,7 +333,7 @@ body {
 
 @-ms-keyframes bounce {
 	0% {
-		top: 0;
+		top: 100%;
 		-ms-animation-timing-function: ease-in;
 	}
 	16% {
@@ -368,7 +368,7 @@ body {
 
 @keyframes bounce {
 	0% {
-		top: 0;
+		top: 100%;
 		animation-timing-function: ease-in;
 	}
 	16% {
