@@ -90,13 +90,13 @@ a{
     padding: 0px 0px 5px 0px;
 }
 .container > header h1 span{
-	color: #582036;
+	color: #582036; <!-- name colors -->
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
 }
 .container > header h2{
 	font-size: 16px;
 	font-style: italic;
-	color: #391b27;
+	color: #391b27; <!-- homepage colors -->
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
 
 }
@@ -119,7 +119,7 @@ a{
 	float: left;
 }
 .codrops-top a:hover{
-	background: #7a7a6e;
+	background: #333;  <!-- menu colors -->
 }
 .codrops-top span.right{
 	float: right;
@@ -152,7 +152,7 @@ a{
 	transition: all 0.2s linear;
 }
 .codrops-demos a:hover{
-	background: rgba(103,59,77,0.4);
+	background: rgba(0, 0, 0, 0.1); <!--rgba(103,59,77,0.4) -->
 }
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover{
