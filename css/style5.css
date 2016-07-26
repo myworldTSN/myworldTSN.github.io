@@ -57,7 +57,7 @@
     box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
   }*/
   
-  <?PHP
+  
   // display the rotating polygon
   $radius = floor($maxw / (2 * tan(deg2rad(180/$num))));
   echo "<div id=\"stage\" style=\"width: {$maxw}px; height: {$maxh}px;\">\n";
@@ -71,6 +71,6 @@
   }
   echo "</div>\n";
   echo "</div>\n";
-?>
+
 
 </style>
