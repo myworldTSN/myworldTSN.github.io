@@ -45,7 +45,7 @@
     transform-style: preserve-3d;
   }
 
-  #spinner:hover {
+#spinner:hover {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
   }
