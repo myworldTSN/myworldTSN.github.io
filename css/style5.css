@@ -1,55 +1,17 @@
-<?PHP
-  // display the rotating polygon
-  $radius = floor($maxw / (2 * tan(deg2rad(180/$num))));
-  echo "<div id=\"stage\" style=\"width: {$maxw}px; height: {$maxh}px;\">\n";
-  echo "<div id=\"spinner\">\n";
-  for($i=0; $i < $num; $i++) {
-    $img = $dirlist[$i];
-    $padw = ($maxw - $size[$i][0]) / 2;
-    $padh = ($maxh - $size[$i][1]) / 2;
-    echo "<img style=\"-webkit-transform: rotateY(",round($rotation, 1),"deg) translateZ({$radius}px); padding: {$padh}px {$padw}px;\" src=\"$img\" {$size[$i][3]} alt=\"\">";
-    $rotation += 360 / $num;
-  }
-  echo "</div>\n";
-  echo "</div>\n";
-?>
-
 <style type="text/css">
 
-  @-webkit-keyframes spinner5 {
-    from,15% { -webkit-transform: rotateY(0deg);    }
-    20%,35%  { -webkit-transform: rotateY(-72deg);  }
-    40%,55%  { -webkit-transform: rotateY(-144deg); }
-    60%,75%  { -webkit-transform: rotateY(-216deg); }
-    80%,95%  { -webkit-transform: rotateY(-288deg); }
-    to       { -webkit-transform: rotateY(-360deg); }
+  /* WebKit and Opera browsers */
+  @-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
   }
 
-  @keyframes spinner5 {
-    from,15% {
-      -moz-transform: rotateY(0);
-      -ms-transform: rotateY(0);
-      transform: rotateY(0);
-    }
-    20%,35%  {
-      -moz-transform: rotateY(-72deg);
-      -ms-transform: rotateY(-72deg);
-      transform: rotateY(-72deg);
-    }
-    40%,55%  {
-      -moz-transform: rotateY(-144deg);
-      -ms-transform: rotateY(-144deg);
-      transform: rotateY(-144deg);
-    }
-    60%,75%  {
-      -moz-transform: rotateY(-216deg);
-      -ms-transform: rotateY(-216deg);
-      transform: rotateY(-216deg);
-    }
-    80%,95%  {
-      -moz-transform: rotateY(-288deg);
-      -ms-transform: rotateY(-288deg);
-      transform: rotateY(-288deg);
+  /* all other browsers */
+  @keyframes spinner {
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
     }
     to {
       -moz-transform: rotateY(-360deg);
@@ -62,16 +24,28 @@
 
 <style type="text/css">
 
-  #spinner {
-    -webkit-animation-name: spinner5;
-    -webkit-animation-timing-function: ease-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 20s;
+  #stage {
+    margin: 1em auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+  }
 
-    animation-name: spinner5;
-    animation-timing-function: ease-out;
+</style>
+
+<style type="text/css">
+
+  #spinner {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 20s;
+    animation-duration: 6s;
 
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -79,4 +53,21 @@
     transform-style: preserve-3d;
   }
 
+  #spinner:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
 </style>
+
+<style type="text/css">
+
+  #spinner img {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.8);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+  }
+
+</style>
+
