@@ -61,23 +61,23 @@
 		-moz-animation-timing-function: ease-in;
 	}
 	1% {
-		top: 1%;
+		top: 10%;
 		-moz-animation-timing-function: ease-out;
 	}
 	5% {
-		top: 2%;
+		top: 20%;
 		-moz-animation-timing-function: ease-in;
 	}
 	7% {
-		top: 3%;
+		top: 30%;
 		-moz-animation-timing-function: ease-out;
 	}
 	10% {
-		top: 4%;
+		top: 40%;
 		-moz-animation-timing-function: ease-in;
 	}
 	15% {
-		top: 5%;
+		top: 50%;
 		-moz-animation-timing-function: ease-out;
 	}
 
@@ -89,23 +89,23 @@
 		-ms-animation-timing-function: ease-in;
 	}
 	1% {
-		top: 1%;
+		top: 10%;
 		-ms-animation-timing-function: ease-out;
 	}
 	5% {
-		top: 2%;
+		top: 20%;
 		-ms-animation-timing-function: ease-in;
 	}
 	7% {
-		top: 3%;
+		top: 30%;
 		-ms-animation-timing-function: ease-out;
 	}
 	10% {
-		top: 4%;
+		top: 40%;
 		-ms-animation-timing-function: ease-in;
 	}
 	15% {
-		top: 5%;
+		top: 50%;
 		-ms-animation-timing-function: ease-out;
 	}
 
@@ -117,23 +117,23 @@
 		animation-timing-function: ease-in;
 	}
 	1% {
-		top: 1%;
+		top: 10%;
 		animation-timing-function: ease-out;
 	}
 	5% {
-		top: 2%;
+		top: 20%;
 		animation-timing-function: ease-in;
 	}
 	7% {
-		top: 3%;
+		top: 30%;
 		animation-timing-function: ease-out;
 	}
 	10% {
-		top: 4%;
+		top: 40%;
 		animation-timing-function: ease-in;
 	}
 	15% {
-		top: 5%;
+		top: 50%;
 		animation-timing-function: ease-out;
 	}
 
