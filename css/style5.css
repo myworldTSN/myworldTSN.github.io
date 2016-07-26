@@ -103,7 +103,13 @@
 	-ms-transform:rotateX(-90deg) translateZ(60px);
 	transform:rotateX(-90deg) translateZ(60px)}
 
-
+.stage {
+    margin: 1em auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+  }
   
   
 </style>
