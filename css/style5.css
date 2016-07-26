@@ -119,3 +119,25 @@
   }
 
 </style>
+
+
+<style type="text/css">
+
+  #spinner {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 20s;
+
+    animation-name: spinner;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+</style>
