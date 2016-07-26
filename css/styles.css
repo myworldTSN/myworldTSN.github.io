@@ -86,3 +86,34 @@ nav {
     box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
     color: #222;
 }
+
+@font-face {
+    font-family: 'IconicStroke';
+    src: url("fonts/iconic/iconic_stroke.eot");
+    src: local('IconicStroke'),
+    url("fonts/iconic/iconic_stroke.svg#iconic") format('svg'),
+    url("fonts/iconic/iconic_stroke.otf") format('opentype');
+}
+.iconic {
+    color:inherit;
+    font-family: "IconicStroke";
+    font-size: 38px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.menu ul {
+    position: absolute;
+    left: -9999px;
+    list-style: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.menu li:hover ul {
+    background: rgba(255,255,255,0.7);
+    border-radius: 0 0 6px 6px;
+    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);
+    left: 5px;
+    opacity: 1;
+}
