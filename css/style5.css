@@ -50,11 +50,27 @@
     animation-play-state: paused;
   }
 
-#spinner img {
+/*#spinner img {
     position: absolute;
     border: 1px solid #ccc;
     background: rgba(255,255,255,0.8);
     box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+  }*/
+  
+  <?PHP
+  // display the rotating polygon
+  $radius = floor($maxw / (2 * tan(deg2rad(180/$num))));
+  echo "<div id=\"stage\" style=\"width: {$maxw}px; height: {$maxh}px;\">\n";
+  echo "<div id=\"spinner\">\n";
+  for($i=0; $i < $num; $i++) {
+    $img = $dirlist[$i];
+    $padw = ($maxw - $size[$i][0]) / 2;
+    $padh = ($maxh - $size[$i][1]) / 2;
+    echo "<img style=\"-webkit-transform: rotateY(",round($rotation, 1),"deg) translateZ({$radius}px); padding: {$padh}px {$padw}px;\" src=\"$img\" {$size[$i][3]} alt=\"\">";
+    $rotation += 360 / $num;
   }
+  echo "</div>\n";
+  echo "</div>\n";
+?>
 
 </style>
