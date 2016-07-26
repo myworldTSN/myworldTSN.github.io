@@ -46,9 +46,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-body {
-    background: url('../images/bg1.jpg');
-    font-family: 'Droid Sans', sans-serif;;
+body{
+	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #fff url(../images/bg1.jpg) repeat bottom right;
+	font-weight: 400;
+	font-size: 15px;
+	color: #391b27; 
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .clearfix {
