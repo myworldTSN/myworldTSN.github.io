@@ -62,7 +62,7 @@ body {
     padding: .5em .75em;
     text-align: center;
     /* Color fallback */
-    color: #e4e4a1;
+    color: #fff;
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
@@ -92,7 +92,7 @@ body {
     right: .125em;
     bottom: .125em;
     left: .125em;
-    background-color: #000;
+    background-color: #e4e4a1;
 }
 
 /* Change the background position to display letter when the black zone isn't here */
