@@ -24,7 +24,7 @@ body {
 
 body {
     font-family: 'Oswald', sans-serif;
-    color: #e4e4a1;
+    color: #fff;
     background-color: #000;
 }
 
@@ -48,7 +48,7 @@ body {
     height: 35px;
     margin-left: -120px;
     content: '';
-    background-color: #fff;
+    background-color: #e4e4a1;
 }
 
 /* Clip text element */
