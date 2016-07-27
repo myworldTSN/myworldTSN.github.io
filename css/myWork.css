@@ -15,7 +15,7 @@
 
 
 html{
-	background:url('../assets/img/bg.jpg') repeat #1c1f20;
+	background:url('../assets/imgz/bg.jpg') repeat #1c1f20;
 }
 
 
@@ -50,7 +50,7 @@ header{
 
 header:after{
 	content:'';
-	background:url('../assets/img/header_border.jpg') repeat-x;
+	background:url('../assets/imgz/header_border.jpg') repeat-x;
 	height:12px;
 	width:100%;
 	left:0;
@@ -157,7 +157,7 @@ h3{
 	
 #carousel li:after{
 	content:'';
-	background:url('../assets/img/cradle.png') no-repeat top center;
+	background:url('../assets/imgz/cradle.png') no-repeat top center;
 	background-size:contain;
 	bottom: 4%;
     content: "";
@@ -176,7 +176,7 @@ h3{
 }
 
 .arrow{
-	background:url('../assets/img/arrows.png') no-repeat;
+	background:url('../assets/imgz/arrows.png') no-repeat;
 	width:28px;
 	height:28px;
 	opacity:0.8;
