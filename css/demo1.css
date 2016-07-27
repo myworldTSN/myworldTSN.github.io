@@ -71,6 +71,8 @@ a{
 .clr{
 	clear: both;
 }
+
+
 .container > header{
 	padding: 20px 30px 10px 30px;
 	margin: 0px 20px 10px 20px;
@@ -80,23 +82,6 @@ a{
     text-align: center;
 }
 .container > header h1{
-#clipped-title2 {
-	background: url(../images/1.jpg)no-repeat top center;
-	background-size: cover;
-	color: #fff;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	cursor: pointer;
-}
-#clipped-title2 h1 {
-	font-size: 110px;
-	font-family: Pacifico, sans-serif;
-	text-align: center;
-	-webkit-transition: text-shadow 1s ease;
-	text-shadow: 0 0 1px rgba(0,0,0,.1);
-	margin-top: -75px;
-	padding: 0;
-}
 
 }
 
