@@ -92,7 +92,7 @@ body {
     right: .125em;
     bottom: .125em;
     left: .125em;
-    background-color: #eedd82;
+    background-color: #323232; /*#eedd82*/
 }
 
 /* Change the background position to display letter when the black zone isn't here */
