@@ -5,18 +5,18 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-h2,p{
+.wrap2 h2,p{
   font-size:100%;
   font-weight:normal;
 }
-ul,li{
+.wrap2 ul,li{
   list-style:none;
 }
-ul{
+.wrap2 ul{
   overflow:hidden;
   padding:3em;
 }
-ul li a{
+.wrap2 ul li a{
   text-decoration:none;
   color:#000;
   background:#ffc;
@@ -31,25 +31,25 @@ ul li a{
   -o-transition:-o-transform .15s linear;
   -webkit-transition:-webkit-transform .15s linear;
 }
-ul li{
+.wrap2 ul li{
   margin:1em;
   float:left;
 }
-ul li h2{
+.wrap2 ul li h2{
   font-size:140%;
   font-weight:bold;
   padding-bottom:10px;
 }
-ul li p{
+.wrap2 ul li p{
   font-family:"Reenie Beanie",arial,sans-serif;
   font-size:180%;
 }
-ul li a{
+.wrap2 ul li a{
   -webkit-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   -moz-transform:rotate(-6deg);
 }
-ul li:nth-child(even) a{
+.wrap2 ul li:nth-child(even) a{
   -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
   -moz-transform:rotate(4deg);
@@ -57,7 +57,7 @@ ul li:nth-child(even) a{
   top:5px;
   background:#cfc;
 }
-ul li:nth-child(3n) a{
+.wrap2 ul li:nth-child(3n) a{
   -o-transform:rotate(-3deg);
   -webkit-transform:rotate(-3deg);
   -moz-transform:rotate(-3deg);
@@ -65,14 +65,14 @@ ul li:nth-child(3n) a{
   top:-5px;
   background:#ccf;
 }
-ul li:nth-child(5n) a{
+.wrap2 ul li:nth-child(5n) a{
   -o-transform:rotate(5deg);
   -webkit-transform:rotate(5deg);
   -moz-transform:rotate(5deg);
   position:relative;
   top:-10px;
 }
-ul li a:hover,ul li a:focus{
+.wrap2 ul li a:hover,ul li a:focus{
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
@@ -82,7 +82,5 @@ ul li a:hover,ul li a:focus{
   position:relative;
   z-index:5;
 }
-ol{text-align:center;}
-ol li{display:inline;padding-right:1em;}
-ol li a{color:#fff;}
+
 </style>
