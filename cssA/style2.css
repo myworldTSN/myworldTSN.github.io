@@ -130,11 +130,13 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-}
-
+	
 #a {
 	color: rgba(255,255,255,0.9);
 }
+}
+
+
 
 .sb-container div:last-child h4{
 	background: rgba(0,0,0,0.2);
