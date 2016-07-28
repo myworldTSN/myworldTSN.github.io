@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .wrap2 ul{
   overflow:hidden;
-  padding:3em;
+  padding:1em; /*3em*/
 }
 .wrap2 ul li a{
   text-decoration:none;
@@ -42,7 +42,7 @@ footer, header, hgroup, menu, nav, section {
   -webkit-transition:-webkit-transform .15s linear;
 }
 .wrap2 ul li{
-  margin:4em;  /*1em*/
+  margin:1em;  /*1em*/
   float:left;
 }
 .wrap2 ul li h2{
