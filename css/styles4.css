@@ -42,7 +42,7 @@ footer, header, hgroup, menu, nav, section {
   -webkit-transition:-webkit-transform .15s linear;
 }
 .wrap2 ul li{
-  margin:1em;
+  margin:4em;  /*1em*/
   float:left;
 }
 .wrap2 ul li h2{
