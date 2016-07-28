@@ -47,7 +47,10 @@ a{
 .container{
 	width: 100%;
 	position: relative;
-	height: 200px;  /*0*/
+}
+
+.sb-container{
+	height: 140px;
 }
 .clr{
 	clear: both;
