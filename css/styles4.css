@@ -88,11 +88,6 @@ footer, header, hgroup, menu, nav, section {
   font-size:110%;
 }
 
-.wrap2 ul li p ul li{
-  /*font: bold 12px 'Rochester', cursive; */     /*hey oh */
-  font-family:"Reenie Beanie",arial,sans-serif;
-  font-size:110%;
-}
 
 .wrap2 ul li a{
   -webkit-transform: rotate(-6deg);
