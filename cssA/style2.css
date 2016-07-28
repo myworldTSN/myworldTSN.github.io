@@ -1,7 +1,7 @@
 .sb-container {
 	position: relative;
 	width: 150px;
-	height: 400px;
+	height: 200px;  /*400 */
 	margin: 30px auto 0 auto;
 }
 
