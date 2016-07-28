@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 .wrap2 ul li a{
   text-decoration:none;
   color:#000;
-  background:#ffc;
+  background:#FFE4E1;  /* ffc */
   display:block;
   height:12em;  /*10em*/
   width:14em;
