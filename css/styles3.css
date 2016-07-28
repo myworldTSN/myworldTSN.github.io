@@ -31,7 +31,10 @@ table {
 	border-spacing: 0;
 }
 
-
+body {
+    background: url('../images/bg1.jpg');
+    font-family: 'Droid Sans', sans-serif;;
+}
 .clearfix {
 	clear: both;
 }
