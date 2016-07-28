@@ -54,7 +54,7 @@ header:after{
 	height:12px;
 	width:100%;
 	left:0;
-	bottom:-120px;   /*-12px*/
+	bottom:-12px;   /*-12px*/
 	position:absolute;
 }
 
