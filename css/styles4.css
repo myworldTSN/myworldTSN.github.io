@@ -6,7 +6,7 @@ footer, header, hgroup, menu, nav, section {
 
 
 .wrap2 h2,p{
-  font: normal 28px 'Rochester', cursive;
+  font: normal 18px 'Rochester', cursive;
 /*
   font:'Rochester', cursive;
   font-size:100%;
@@ -14,7 +14,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .wrap2 p{
-  font: normal 22px 'Rochester', cursive;
+  font: normal 15px 'Rochester', cursive;
   /*font-size:80%;
   font-weight:normal; */
 }
