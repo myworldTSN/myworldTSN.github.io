@@ -75,7 +75,8 @@ header h2{
 
 header h1{
 	text-align:center;
-	font: normal 56px 'Bree Serif', sans-serif;
+	font: normal 56px 'Rochester', cursive;
+	/* normal 56px 'Bree Serif', sans-serif; */
 	color:#494949;
 	padding:60px 0 40px;
 	text-shadow:1px 1px 1px rgba(0,0,0,0.1);
