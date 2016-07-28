@@ -132,6 +132,10 @@
 	user-select: none;
 }
 
+.sb-container div h4 span{
+	color: rgba(255,255,255,0.9);
+}
+
 .sb-container div:last-child h4{
 	background: rgba(0,0,0,0.2);
 	box-shadow: 0 1px 1px rgba(255,255,255,0.1);
