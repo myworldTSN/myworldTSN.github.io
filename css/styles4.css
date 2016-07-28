@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
   background:#ffc;
   display:block;
   height:12em;  /*10em*/
-  width:12em;
+  width:14em;
   padding:1em;
   -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
   -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
