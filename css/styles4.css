@@ -14,7 +14,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .wrap2 p{
-  font: normal 15px 'Rochester', cursive;
+  font: normal 12px 'Rochester', cursive;
   /*font-size:80%;
   font-weight:normal; */
 }
@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
   float:left;
 }
 .wrap2 ul li h2{
-   font: bold 28px 'Rochester', cursive;
+   font: bold 18px 'Rochester', cursive;
 /*
   font:'Rochester', cursive;
   font-size:100%;
@@ -54,7 +54,7 @@ footer, header, hgroup, menu, nav, section {
   padding-bottom:10px;
 }
 .wrap2 ul li p{
-  font: bold 28px 'Rochester', cursive;
+  font: bold 12px 'Rochester', cursive;
   /*font-size:80%;*/
 }
 .wrap2 ul li a{
