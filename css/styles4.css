@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .wrap2 ul{
   overflow:hidden;
-  padding:5em; /*3em*/
+  padding:7em; /*3em*/
 }
 .wrap2 ul li a{
   text-decoration:none;
