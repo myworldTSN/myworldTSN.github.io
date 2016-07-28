@@ -5,6 +5,35 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
+.container > header{
+	padding: 20px 30px 10px 30px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #923e5f;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+	color: #582036; <!-- name colors -->
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.container > header h2{
+	font-size: 16px;
+	font-style: italic;
+	color: #391b27; <!-- homepage colors -->
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+
+}
 .wrap2 h2,p{
   font: normal 18px 'Rochester', cursive;
 /*
