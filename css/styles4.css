@@ -56,7 +56,7 @@ footer, header, hgroup, menu, nav, section {
 .wrap2 ul li p{
   /*font: bold 12px 'Rochester', cursive; */
   font-family:"Reenie Beanie",arial,sans-serif;
-  font-size:100%;
+  font-size:110%;
 }
 .wrap2 ul li a{
   -webkit-transform: rotate(-6deg);
