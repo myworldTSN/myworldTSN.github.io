@@ -54,8 +54,9 @@ footer, header, hgroup, menu, nav, section {
   padding-bottom:10px;
 }
 .wrap2 ul li p{
-  font: bold 12px 'Rochester', cursive;
-  /*font-size:80%;*/
+  /*font: bold 12px 'Rochester', cursive; */
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
 }
 .wrap2 ul li a{
   -webkit-transform: rotate(-6deg);
