@@ -90,11 +90,10 @@ a{
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
 }
 .container > header h2{
-	font-size: 16px;
-	font-style: italic;
-	color: #fff;  /*<!--391b27--> */
+    font: italic 16px 'Rochester', cursive;
+	color: #ffd700;  /*<!--391b27--> */
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
-
+	text-align:center;
 }
 
 
