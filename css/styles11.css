@@ -157,7 +157,7 @@ ul.w3-ul li:last-child{border-bottom:none}
 
 .w3-navbar{list-style-type:none;margin:0;padding:0;overflow:hidden}
 .w3-navbar li{float:left}
-.w3-navbar li a{display:block;padding:16px 32px}  /*8px 16px  */
+.w3-navbar li a{display:block;padding:8px 16px}  /*8px 16px  */
 .w3-navbar li a:hover{color:#000;background-color:#ccc}
 
 .w3-navbar .w3-dropdown-hover,.w3-navbar .w3-dropdown-click{position:static}
@@ -165,9 +165,16 @@ ul.w3-ul li:last-child{border-bottom:none}
 .w3-navbar .w3-dropdown-hover:hover,.w3-navbar .w3-dropdown-hover:first-child,.w3-navbar .w3-dropdown-click:hover{background-color:#ccc;color:#000}
 
 .w3-navbar a,.w3-topnav a,.w3-sidenav a,.w3-dropdown-content a,.w3-accordion-content a,.w3-dropnav a{text-decoration:none!important}
-.w3-navbar .w3-opennav.w3-right{float:right!important}.w3-topnav{padding:8px 8px}
+
+.w3-navbar .w3-opennav.w3-right{float:right!important}
+
+.w3-topnav{padding:8px 8px}
+
 .w3-topnav a{padding:0 8px;border-bottom:3px solid transparent;-webkit-transition:border-bottom .3s;transition:border-bottom .3s}
+
 .w3-topnav a:hover{border-bottom:3px solid #fff}.w3-topnav .w3-dropdown-hover a{border-bottom:0}
+
+
 .w3-opennav,.w3-closenav{color:inherit}.w3-opennav:hover,.w3-closenav:hover{cursor:pointer;opacity:0.8}
 .w3-btn,.w3-btn-floating,.w3-dropnav a,.w3-btn-floating-large,.w3-btn-block,.w3-hover-shadow,.w3-hover-opacity,
 .w3-navbar a,.w3-sidenav a,.w3-pagination li a,.w3-hoverable tbody tr,.w3-hoverable li,.w3-accordion-content a,.w3-dropdown-content a,.w3-dropdown-click:hover,.w3-dropdown-hover:hover,.w3-opennav,.w3-closenav,.w3-closebtn,
@@ -289,7 +296,10 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-section{margin-top:16px!important;margin-bottom:16px!important}
 .w3-padding-tiny{padding:2px 4px!important}.w3-padding-small{padding:4px 8px!important}
 .w3-padding-medium,.w3-padding,.w3-form{padding:8px 16px!important}
-.w3-padding-large{padding:12px 24px!important}.w3-padding-xlarge{padding:16px 32px!important}
+
+.w3-padding-large{padding:12px 24px!important}
+.w3-padding-xlarge{padding:16px 32px!important}
+
 .w3-padding-xxlarge{padding:24px 48px!important}.w3-padding-jumbo{padding:32px 64px!important}
 .w3-padding-4{padding-top:4px!important;padding-bottom:4px!important}
 .w3-padding-8{padding-top:8px!important;padding-bottom:8px!important}
